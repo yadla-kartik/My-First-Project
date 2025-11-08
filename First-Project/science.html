@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KH Notes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"  type="" href="favicon (4).ico">
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.top {
+    font-size: 2px;
+    color: #f2af11;
+    background-color: #f2af11;
+}
+
+body {
+    background-image: url("body-bg3.png");
+}
+
+
+a {
+    margin-right: 60px;
+}
+
+/* box1 */
+
+.navbar {
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo {
+    height: 60px;
+    width: 155px;
+    margin-left: 8px;
+    margin-right: 60px;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 155px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 3px solid #22A699;
+}
+
+/* Box2 */
+
+.nav-home {
+    display: flex;
+    font-size: 17px;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+.syllabus {
+    text-decoration: none;
+    color: white;
+}
+
+.engineering {
+    text-decoration: none;
+    color: white;
+}
+
+.science {
+    color: #22A699;
+}
+
+.english {
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover {
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+.engineering:hover {
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+.science:hover {
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+.english:hover {
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+/* Box3*/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 40px;
+    border: 4px;
+    ;
+}
+
+
+.search-input {
+    width: 100%;
+    align-items: self-end;
+    margin-top: 4px;
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 17px;
+    border: 2px soild black;
+    border-radius: 20px;
+}
+
+.search-input:hover {
+    border: solid 3px #22A699;
+}
+
+.search-icon {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f2af11;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #0f1111;
+}
+
+.search-icon:hover {
+    background-color: #22A699;
+}
+    </style>
+</head>
+<body>
+    <div class="top">k</div>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"><a href="home.html"></a></div>
+            </div>
+        
+            <div class="nav-home">
+                <div class="home-link">
+                    <a class="home" href="index.html">Home</a>
+                </div>
+                <div class="syllabus-link">
+                    <a class="syllabus" href="syllabus.html">Syllabus</a>
+                </div>
+                <div class="engineering-link">
+                    <a class="engineering" href="enginerring.html">Enginerring Notes</a>
+                </div>
+                <div class="science-link">
+                    <a class="science" href="science.html">Science Notes</a>
+                </div>
+                <div class="engineering-link">
+                    <a class="english" href="english.html">English Notes</a>
+                </div>
+            </div>
+            
+            <div class="nav-search ">
+                <input type="text" placeholder="Search..." class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

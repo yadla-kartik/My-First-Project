@@ -1,0 +1,499 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.top {
+    font-size: 2px;
+    color: #f2af11;
+    background-color: #f2af11;
+}
+
+body {
+    background-image: url("body-bg3.png");
+}
+
+
+a {
+    margin-right: 60px;
+}
+
+/* box1 */
+
+.navbar {
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo {
+    height: 60px;
+    width: 155px;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 155px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 3px solid #22A699;
+}
+
+/* Box2 */
+
+.nav-home {
+    display: flex;
+    font-size: 17px;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+/* syllabus */
+
+.syllabus {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.syllabus-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+.syllabus-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.syllabus {
+    font-size: 17px;
+}
+
+.syllabus-content a:hover {
+    background-color: #22A699;
+    color: #e2ba07;  
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.syllabus-link:hover .syllabus-content {
+    display: block;
+}
+
+.syllabus-link:hover .syllabus {
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+/* enginerring */
+
+.enginerring {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.enginerring-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+.enginerring-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.enginerring {
+    font-size: 17px;
+}
+
+.enginerring-content a:hover {
+    background-color: #22A699;
+    color: #e2ba07;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.enginerring-link:hover .enginerring-content {
+    display: block;
+}
+
+.enginerring-link:hover .enginerring {
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+/* science */
+
+.science{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.science-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+.science-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.science{
+    font-size: 17px;
+}
+
+.science-content a:hover {
+    background-color: #22A699;
+    color: #e2ba07;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.science-link:hover .science-content {
+    display: block;
+}
+
+.science-link:hover .science{
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+/* english */
+
+.english{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.english-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+.english-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.english{
+    font-size: 17px;
+}
+
+.english-content a:hover {
+    background-color: #22A699;
+    color: #e2ba07;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.english-link:hover .english-content {
+    display: block;
+}
+
+.english-link:hover .english{
+    background-color: #22A699;
+    border: 3px solid #22A699;
+    border-radius: 25px;
+    color: black;
+}
+
+
+/* Box3*/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 40px;
+    border: 4px;
+    ;
+}
+
+
+.search-input {
+    width: 100%;
+    align-items: self-end;
+    margin-top: 4px;
+    margin-right: 10px;
+    padding: 6px;
+    font-size: 17px;
+    border: 2px soild black;
+    border-radius: 20px;
+}
+
+.search-input:hover {
+    border: solid 3px #22A699;
+}
+
+.search-icon {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f2af11;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #0f1111;
+}
+
+.search-icon:hover {
+    background-color: #22A699;
+}
+
+/* content-1  */
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card1 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 #00000033;
+    background-size: cover;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 20%;
+    padding: 15px;
+}
+
+.card1:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.card2 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 #00000033;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card2:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.card3 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card3:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.card4 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
+    transition: 0.3s;
+    width: 20%;
+    padding: 10px;
+}
+
+.card4:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+/* content-2  */
+
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card5 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card5:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.card6 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card6:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+/* content-3 */
+
+.content-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card7 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card7:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.card8 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card8:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.card9 {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 10px;
+}
+
+.card9:hover {
+    box-shadow: 0 4px 8px 0 #e2ba07;
+}
+
+.container {
+    border: 2px solid #0f1111;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+h2 {
+    font-family: 'Karla';
+}
+
+h2 {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0f1111;
+    border: 2px solid transparent;
+
+    /* border-radius: 20px; */
+}
+
+a:hover {
+    color: #22A699;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+
+
+footer {
+    background-color: #e2ba07;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
